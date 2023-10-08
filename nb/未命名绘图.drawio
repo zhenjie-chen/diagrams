@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-08T06:58:57.430Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="UGYvZzxPeOqjm5u5wjXS" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-08T09:14:16.661Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="DTa_QFSpHbu4SwvEYc4y" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1853" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -67,7 +67,7 @@
           <mxGeometry x="330" y="210" width="126" height="330" as="geometry" />
         </mxCell>
         <mxCell id="d-C2ntr0v8hS8OVYdZ0Y-15" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="172.5" y="140" width="65" height="50" as="geometry" />
+          <mxGeometry x="172.5" y="130" width="65" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d-C2ntr0v8hS8OVYdZ0Y-16" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="170" y="550" width="60" height="50" as="geometry" />
@@ -88,6 +88,15 @@
         </mxCell>
         <mxCell id="d-C2ntr0v8hS8OVYdZ0Y-27" value="发送邮件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="140" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-C2ntr0v8hS8OVYdZ0Y-28" value="Thread0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-10" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d-C2ntr0v8hS8OVYdZ0Y-29" value="Thread1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="170" y="180" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="d-C2ntr0v8hS8OVYdZ0Y-30" value="Thread..." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="358" y="180" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
