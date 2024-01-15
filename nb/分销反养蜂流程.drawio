@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-01-15T15:09:42.598Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="vTJvLgOIpU76RDAyBc2u" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-15T15:15:12.490Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="uI1YXWrajL7FlQluWI3O" version="22.1.18" type="github">
   <diagram name="第 1 页" id="Jj0NIevVgaAMwE1xDEww">
-    <mxGraphModel>
+    <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="d-g-_hvjLPND25Uwl7-s-2" target="d-g-_hvjLPND25Uwl7-s-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-2" value="携程" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="130" y="110" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="d-g-_hvjLPND25Uwl7-s-4" target="d-g-_hvjLPND25Uwl7-s-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-4" value="订单" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="d-g-_hvjLPND25Uwl7-s-5" target="d-g-_hvjLPND25Uwl7-s-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="d-g-_hvjLPND25Uwl7-s-5" target="d-g-_hvjLPND25Uwl7-s-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-5" value="风控" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="108.13" width="90" height="53.75" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-6" value="自有订单" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="570" y="70" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="d-g-_hvjLPND25Uwl7-s-7" target="d-g-_hvjLPND25Uwl7-s-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-7" value="分销订单" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="570" y="150" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-8" value="拉黑" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="67.5" width="95" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-9" value="资源屏蔽" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="710" y="147.5" width="90" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="d-g-_hvjLPND25Uwl7-s-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" source="d-g-_hvjLPND25Uwl7-s-6" target="d-g-_hvjLPND25Uwl7-s-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
