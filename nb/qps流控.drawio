@@ -1,9 +1,36 @@
-<mxfile host="app.diagrams.net" modified="2024-01-16T02:57:53.511Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.18" etag="UJgCyf1t801QT0tLa-Az" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-16T05:44:22.634Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="bPdGDoV7i7MDusziOiep" version="22.1.18" type="github">
   <diagram name="第 1 页" id="ks74l9IMovMfhxcdN7gW">
-    <mxGraphModel>
+    <mxGraphModel dx="1853" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Fe92j3MBqG-JQeNTd552-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="80" width="1170" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe92j3MBqG-JQeNTd552-2" value="接口列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe92j3MBqG-JQeNTd552-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fe92j3MBqG-JQeNTd552-4" target="Fe92j3MBqG-JQeNTd552-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe92j3MBqG-JQeNTd552-4" value="hotSwitch获取流量池数据" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe92j3MBqG-JQeNTd552-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fe92j3MBqG-JQeNTd552-6" target="Fe92j3MBqG-JQeNTd552-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe92j3MBqG-JQeNTd552-6" value="获取到数据库中的对应时间段的方法和配置" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="140" width="125" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe92j3MBqG-JQeNTd552-9" value="分两种情况，一种是百分比配置，一种是绝对值配置" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe92j3MBqG-JQeNTd552-11" value="绝对值计算：&lt;br&gt;可以按照方法名和绝对值类型的数据group by&lt;br&gt;&lt;div style=&quot;&quot;&gt;条件为&lt;/div&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;font color=&quot;#e06c75&quot;&gt;not start_time &amp;lt;= #{endTime} and end_time &amp;gt;= #{startTime} and modify_type=1&lt;/font&gt;&lt;br&gt;池子中剩余数量可以直接按照池子总量-总绝对值数量&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="340" width="450" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Fe92j3MBqG-JQeNTd552-12" value="百分比计算：&lt;br&gt;查询方法名,不聚合&lt;br&gt;&lt;div style=&quot;&quot;&gt;条件为&lt;/div&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;font color=&quot;#e06c75&quot;&gt;not start_time &amp;lt;= #{endTime} and end_time &amp;gt;= #{startTime}&amp;nbsp;&lt;/font&gt;&lt;/font&gt;&lt;font color=&quot;#e06c75&quot;&gt;and modify_type=1&lt;/font&gt;&lt;font face=&quot;JetBrains Mono, monospace&quot;&gt;&lt;br&gt;池子中剩余数量可以直接按照池子总量-（每个百分比乘以原配置相加）&lt;br&gt;如果没有配置，取默认值&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="62.5" y="340" width="547.5" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
