@@ -1,9 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2024-01-31T07:18:22.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.19" etag="ZJApi7MJREDt1RxsTfQK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-31T07:29:32.554Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Zo_0JQ6Vu6NO3bOotCUw" version="22.1.19" type="github">
   <diagram name="第 1 页" id="rc2ecsA4oZILKcnW_Jfl">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="270" width="230" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-2" value="locale对象" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="175" y="240" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-3" value="Locale表示不同的时区，位置，语言" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="270" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-4" value="zh_CN&amp;nbsp; &amp;nbsp; 中国，中文&lt;br&gt;en_US&amp;nbsp; &amp;nbsp; 美国，英文" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="320" width="157" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="270" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-6" value="properties属性配置文件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="240" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-7" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;国际化配置文件命名规则：&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;baseName+locale.properties&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;比如：baseName是i18n&lt;/div&gt;&lt;div style=&quot;&quot;&gt;中文的配置名称就是：i18n_zh_CN.properties&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="490" y="280" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="219.5" y="80" width="380.5" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-9" value="ResourceBundle资源包" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="334.75" y="50" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-10" value="ResourceBundle.getBundle();" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="214" y="90" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-11" value="根据给定的baseName和Locale读取相应的配置文件，得到文字信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="120" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SCiWo5vwGggc0oU0Sdin-12" value="ResourceBundle.getString(key);&lt;br&gt;得到你想要的不同国家的语言信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="199.5" y="160" width="240" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
