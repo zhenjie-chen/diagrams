@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T08:10:15.128Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ivWFh6MAPtGo9RZwG7Vo" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T08:21:39.067Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="neO0q7z7xCScbfpQDSrA" version="24.4.13" type="github">
   <diagram name="第 1 页" id="1VtuawKiRyLLdD8fV5gA">
     <mxGraphModel dx="1026" dy="650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -63,6 +63,27 @@
             <mxPoint x="414" y="524" as="sourcePoint" />
             <mxPoint x="484" y="524" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-32" value="订单表" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="30" y="1080" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="1114.5" as="sourcePoint" />
+            <mxPoint x="300" y="1114.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-34" value="订单表1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="360" y="980" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-40" value="订单表3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1140" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-41" value="订单表2" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1060" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-42" value="订单表4" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1220" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
