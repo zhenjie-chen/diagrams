@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T08:37:50.886Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="0MLGYiDrfjmYf6tqNDeX" version="24.4.13" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T08:56:07.882Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="NENrY1eJXoZT3sIOi8Kk" version="24.4.13" type="github">
   <diagram name="第 1 页" id="1VtuawKiRyLLdD8fV5gA">
-    <mxGraphModel dx="933" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1724" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -138,6 +138,60 @@
         </mxCell>
         <mxCell id="1v1zTL4evtBjEqySIljK-69" value="商品表2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1890" y="575" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-70" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1580" width="350" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-71" value="活动库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1675" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-72" value="商品库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1675" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-73" value="订单库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1740" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-74" value="预约库" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1740" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-75" value="DB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1590" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-76" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-400" y="1916" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-77" value="活动表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="1986" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-81" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;活动库&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-330" y="1913" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-93" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-92" y="1916" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-94" value="商品表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-32" y="1986" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-95" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;商品库&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-22" y="1913" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-96" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="218" y="1919" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-97" value="订单表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="278" y="1989" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-98" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;订单库&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="288" y="1916" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-99" value="" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="508" y="1922" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-100" value="预约表" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="568" y="1992" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1v1zTL4evtBjEqySIljK-101" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;预约库&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="578" y="1919" width="80" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
